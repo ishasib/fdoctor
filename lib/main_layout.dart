@@ -1,4 +1,4 @@
-import 'package:fdoctor/screens/appointment.dart';
+import 'package:fdoctor/screens/appointment_page.dart';
 import 'package:fdoctor/screens/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
