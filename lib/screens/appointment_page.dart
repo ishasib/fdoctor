@@ -2,7 +2,7 @@ import 'package:fdoctor/utils/config.dart';
 import 'package:flutter/material.dart';
 
 class AppointmentPage extends StatefulWidget {
-  const AppointmentPage({super.key});
+  const AppointmentPage({Key? key}) : super(key: key);
 
   @override
   State<AppointmentPage> createState() => _AppointmentPageState();
