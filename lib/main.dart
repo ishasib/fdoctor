@@ -1,6 +1,8 @@
 import 'package:fdoctor/main_layout.dart';
 import 'package:fdoctor/screens/auth_page.dart';
+import 'package:fdoctor/screens/booking_page.dart';
 import 'package:fdoctor/screens/doctor_details.dart';
+import 'package:fdoctor/screens/success_booked.dart';
 import 'package:fdoctor/utils/config.dart';
 import 'package:flutter/material.dart';
 
@@ -51,6 +53,8 @@ class MyApp extends StatelessWidget {
 
         'main': (context) => const MainLayout(),
         'doc_details': (context) => const DoctorDetails(),
+        'booking_page': (context) => BookingPage(),
+        'success_booking': (context) => const AppointmentBooked(),
       },
     );
   }
